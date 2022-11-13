@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Development</string>
+    <string name="school_name">대덕소프트웨어마이스터고</string>
+    <string name="delivery">배달</string>
+    <string name="develop_one">개발1</string>
+    <string name="gift">선물하기</string>
+    <string name="delivery_detail">세상은 하나고\n자판기도 하나다</string>
+    <string name="develop_one_detail">한 번에 한 방만\n빠르게</string>
+    <string name="gift_detail">마음을 전하세요\n밤새는 그대에게</string>
 </resources>
