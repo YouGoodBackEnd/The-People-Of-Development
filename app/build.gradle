@@ -30,11 +30,8 @@ android {
     kotlinOptions {
         jvmTarget = '11'
     }
-    buildFeatures {
-        viewBinding true
-    }
-    lintOptions {
-        baseline(file("lint-baseline.xml"))
+    viewBinding {
+        enabled = true
     }
 }
 
