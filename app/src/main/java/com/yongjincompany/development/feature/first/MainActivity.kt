@@ -1,5 +1,6 @@
 package com.yongjincompany.development.feature.first
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bumptech.glide.Glide
@@ -18,6 +19,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initView() {
+        val intent = Intent(this, DeliveryActivity::class.java)
+
         Glide.with(this)
             .load(R.drawable.deliver)
             .into(binding.ivDelivery)
@@ -29,5 +32,9 @@ class MainActivity : AppCompatActivity() {
         Glide.with(this)
             .load(R.drawable.gift)
             .into(binding.ivGift)
+
+        binding.cvDelivery.setOnClickListener {
+            startActivity(intent)
+        }
     }
 }
